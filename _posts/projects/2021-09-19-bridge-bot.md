@@ -16,4 +16,4 @@ externalLink: false
 ---
 
 This is Discord bot made in NodeJS. It links Discord servers by relaying messages across them.  
-It is available on my [Github Repo](https://github.com/HellsCrimson/Bridge-Bot)
+It is available on my <a href="https://github.com/HellsCrimson/Bridge-Bot" target="_blank">Github Repo</a>

@@ -23,5 +23,5 @@ author: matthias
 <h2>Working Experience</h2>
 
 <ul class="skill-list">
-	<li>At EMBROSS on the RMS (Resource Management System) with Angular for about two months as a trainee. (2022)</li>
+	<li>At EMBROSS on the RMS (Resource Management System) with Angular/Typescript for two months as a trainee. (2022)</li>
 </ul>
