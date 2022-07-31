@@ -1,6 +1,12 @@
 <!-- To add more icons, duplicate a section and find yout icon here -> https://fontawesome.com/v6.0/icons -->
 
 <div class="social-links">
+    {% if site.github %}
+        <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank"  rel="noopener">
+            <i class="fa-brands fa-github"></i>
+        </a>
+    {% endif %}
+
     {% if site.facebook %}
         <a class="link" data-title="facebook.com/{{ site.facebook }}" href="https://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener">
             <i class="fa-brands fa-facebook"></i>
@@ -13,21 +19,39 @@
         </a>
     {% endif %}
 
-    {% if site.instagram %}
-        <a class="link" data-title="instagram.com/{{ site.instagram }}" href="https://instagram.com/{{ site.instagram }}" target="_blank"  rel="noopener">
-            <i class="fa-brands fa-instagram"></i>
-        </a>
-    {% endif %}
-
     {% if site.linkedin %}
         <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank"  rel="noopener">
             <i class="fa-brands fa-linkedin"></i>
         </a>
     {% endif %}
 
-    {% if site.github %}
-        <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank"  rel="noopener">
-            <i class="fa-brands fa-github"></i>
+    {% if site.docker %}
+        <a class="link" data-title="hub.docker.com/{{ site.docker }}" href="https://hub.docker.com/u/{{ site.docker }}" target="_blank"  rel="noopener">
+            <i class="fa-brands fa-docker"></i>
+        </a>
+    {% endif %}
+
+    {% if site.discord %}
+        <a class="link" data-title="discordapp.com/{{ site.discord }}" href="https://discordapp.com/users/{{ site.discord }}" target="_blank"  rel="noopener">
+            <i class="fa-brands fa-discord"></i>
+        </a>
+    {% endif %}
+
+    {% if site.steam %}
+        <a class="link" data-title="steamcommunity.com/{{ site.steam }}" href="https://steamcommunity.com/id/{{ site.steam }}" target="_blank"  rel="noopener">
+            <i class="fa-brands fa-steam"></i>
+        </a>
+    {% endif %}
+
+    {% if site.anilist %}
+        <a class="link" data-title="anilist.co/{{ site.anilist }}" href="https://anilist.co/user/{{ site.anilist }}" target="_blank"  rel="noopener">
+            <i class="fa fa-list"></i>
+        </a>
+    {% endif %}
+
+    {% if site.instagram %}
+        <a class="link" data-title="instagram.com/{{ site.instagram }}" href="https://instagram.com/{{ site.instagram }}" target="_blank"  rel="noopener">
+            <i class="fa-brands fa-instagram"></i>
         </a>
     {% endif %}
 

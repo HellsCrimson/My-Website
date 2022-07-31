@@ -9,8 +9,9 @@ tag:
 - elements
 star: true
 category: blog
-author: johndoe
+author: matthias
 description: Markdown summary with different options
+hidden: true
 ---
 
 ## Basic formatting
