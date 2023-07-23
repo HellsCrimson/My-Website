@@ -16,9 +16,10 @@ dark-theme: true
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: false
+resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+#resume-url: https://google.com/?q=my+resume
+resume-url: https://media.licdn.com/dms/image/D4E22AQEfs8t8yLt_dg/feedshare-shrink_800/0/1689943739106?e=1692835200&v=beta&t=nSOi0whS_Pkyv9bgkVUGhO7MDhCbd4osxcox8uB9Og8
 
 url: https://www.hellscrimson.fr
 
